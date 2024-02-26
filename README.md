@@ -4,3 +4,42 @@
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 This package contains types for Behold JSON feeds
+
+## Installation
+
+```bash
+# Install
+npm install @behold/types
+
+# or
+pnpm add @behold/types
+
+# or
+yarn add @behold/types
+```
+
+## Usage
+
+### Individual Imports
+
+```tsx
+import type {
+  Feed,
+  Post,
+  ChildPost,
+  PostSizes,
+  PostSize,
+  ColorPalette,
+  RGBString,
+} from "@behold/types"
+
+const instaFeed: Feed = ...
+```
+
+### Namespaced
+
+```tsx
+import type * as Behold from "@behold/types"
+
+const instaFeed: Behold.Feed = ...
+```
