@@ -23,7 +23,8 @@
   },
   "type": "module",
   "types": "index.d.ts",
+  "main": "",
   "scripts": {
-    "publish": "npm publish --access public"
+    "pub": "npm publish --access public"
   }
 }
