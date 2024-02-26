@@ -1,4 +1,4 @@
-declare namespace Behold {
+export declare namespace Behold {
   export interface Feed {
     username: string
     biography: string
