@@ -1,0 +1,29 @@
+{
+  "name": "@behold/types",
+  "version": "0.1.0",
+  "description": "Types for Behold JSON feeds",
+  "keywords": [
+    "Behold",
+    "typescript",
+    "types",
+    "typings",
+    "Instagram",
+    "API",
+    "JSON"
+  ],
+  "author": "Griffin Johnston",
+  "license": "MIT",
+  "homepage": "https://github.com/BeholdSocial/behold-types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeholdSocial/behold-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BeholdSocial/behold-types/issues"
+  },
+  "type": "module",
+  "types": "index.d.ts",
+  "scripts": {
+    "publish": "npm publish --access public"
+  }
+}
