@@ -19,6 +19,7 @@ export interface Post {
   thumbnailUrl?: string
   sizes: PostSizes
   caption: string
+  altText?: string
   prunedCaption: string
   hashtags: string[]
   hashtag?: string
