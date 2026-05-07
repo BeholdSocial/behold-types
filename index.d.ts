@@ -34,6 +34,7 @@ export interface ChildPost {
   mediaUrl: string
   sizes: PostSizes
   colorPalette: ColorPalette
+  altText?: string
 }
 
 export interface PostSizes {
