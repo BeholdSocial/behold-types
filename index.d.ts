@@ -32,7 +32,7 @@ export interface ChildPost {
   id: string
   mediaType: string
   mediaUrl: string
-  thumbnailUrl: string
+  thumbnailUrl?: string
   sizes: PostSizes
   colorPalette: ColorPalette
   altText?: string
