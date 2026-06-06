@@ -24,6 +24,8 @@ export interface Post {
   hashtags: string[]
   hashtag?: string
   mentions: string[]
+  likeCount: number
+  commentsCount: number
   colorPalette: ColorPalette
   children?: ChildPost[]
 }
