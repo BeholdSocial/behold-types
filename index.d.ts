@@ -32,7 +32,7 @@ export interface Post {
 
 export interface ChildPost {
   id: string
-  mediaType: string
+  mediaType: "IMAGE" | "VIDEO"
   mediaUrl: string
   thumbnailUrl?: string
   sizes: PostSizes
@@ -48,8 +48,8 @@ export interface PostSizes {
 }
 
 export interface PostSize {
-  height: number
-  width: number
+  height: number | null
+  width: number | null
   mediaUrl: string
 }
 
