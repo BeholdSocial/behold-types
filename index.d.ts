@@ -50,7 +50,7 @@ export interface PostSizes {
 export interface PostSize {
   height: number | null;
   width: number | null;
-  mediaUrl: string;
+  mediaUrl: string | null;
 }
 
 export interface ColorPalette {
